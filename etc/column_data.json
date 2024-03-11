@@ -1,0 +1,63 @@
+{
+    "title": "Population by Continent",
+    "label": {
+        "domainAxis": "Year",
+        "rangeAxis": "Population (in millions)"
+    },
+    "data": [
+        {
+            "Year": "2000",
+            "Europe": 730,
+            "America": 910,
+            "Asia": 3950,
+            "Australia": 19,
+            "Antarctica": 0.004,
+            "Africa": 800
+        },
+        {
+            "Year": "2005",
+            "Europe": 740,
+            "America": 950,
+            "Asia": 4200,
+            "Australia": 21,
+            "Antarctica": 0.005,
+            "Africa": 900
+        },
+        {
+            "Year": "2010",
+            "Europe": 750,
+            "America": 990,
+            "Asia": 4450,
+            "Australia": 23,
+            "Antarctica": 0.006,
+            "Africa": 1000
+        },
+        {
+            "Year": "2015",
+            "Europe": 760,
+            "America": 1030,
+            "Asia": 4700,
+            "Australia": 25,
+            "Antarctica": 0.007,
+            "Africa": 1100
+        },
+        {
+            "Year": "2020",
+            "Europe": 770,
+            "America": 1070,
+            "Asia": 4950,
+            "Australia": 27,
+            "Antarctica": 0.008,
+            "Africa": 1200
+        },
+        {
+            "Year": "2024",
+            "Europe": 780,
+            "America": 1110,
+            "Asia": 5200,
+            "Australia": 29,
+            "Antarctica": 0.009,
+            "Africa": 1300
+        }
+    ]
+}

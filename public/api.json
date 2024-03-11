@@ -1,0 +1,148 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "version": "1.0",
+        "title": "Fantastic API",
+        "description": "A delightful API example for a Mojolicious application.",
+        "contact": {
+            "name": "Maksym",
+            "url": "https://github.com/boot4root"
+        }
+    },
+    "servers": [
+        {
+            "url": "/api/v1",
+            "description": "Version one endpoint"
+        }
+    ],
+    "paths": {
+        "/multi-line": {
+            "get": {
+                "summary": "Retrieve data for a splendid multi-line",
+                "tags": ["Visual Data"],
+                "operationId": "fetchSplendidMultiLinData",
+                "x-mojo-name": "fetch_splendid_multi_line_data",
+                "x-mojo-to": {
+                    "controller": "Line",
+                    "action": "fetch_splendid_multi_line"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Splendid Multi-Line Data Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "visual_data": {
+                                            "type": "object",
+                                            "items": {
+                                                "type": "object"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create a new splendid multi-line",
+                "tags": ["Visual Data"],
+                "operationId": "createSplendidMultiLinData",
+                "x-mojo-name": "create_splendid_multi_line_data",
+                "x-mojo-to": {
+                    "controller": "Line",
+                    "action": "create_splendid_multi_line"
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "visual_data": {
+                                        "type": "object",
+                                        "items": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Splendid Multi-Line Data Created"
+                    }
+                }
+            }
+        },
+        "/stacked-column": {
+            "get": {
+                "summary": "Retrieve data for a fantastic stacked column",
+                "tags": ["Visual Data"],
+                "operationId": "fetchFantasticStackedColumData",
+                "x-mojo-name": "fetch_fantastic_stacked_column_data",
+                "x-mojo-to": {
+                    "controller": "Column",
+                    "action": "fetch_fantastic_stacked_column"
+                },
+                "responses": {
+                    "200": {
+                        "description": "Fantastic Stacked Column Data Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "visual_data": {
+                                            "type": "object",
+                                            "items": {
+                                                "type": "object"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create a new fantastic stacked column",
+                "tags": ["Visual Data"],
+                "operationId": "createFantasticStackedColumData",
+                "x-mojo-name": "create_fantastic_stacked_column_data",
+                "x-mojo-to": {
+                    "controller": "Column",
+                    "action": "create_fantastic_stacked_column"
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "visual_data": {
+                                        "type": "object",
+                                        "items": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Fantastic Stacked Column Data Created"
+                    }
+                }
+            }
+        }
+    }
+}

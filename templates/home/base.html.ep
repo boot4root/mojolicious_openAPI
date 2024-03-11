@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome API Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Awesome API</h1>
+        <h2>API link</h2>
+        <p><%= link_to 'Open API page' => '/api' %>.</p>
+        <h2>Response Format</h2>
+        <p>The API returns data in JSON format.</p>
+        <h2>Examples</h2>
+        <p>Here are some examples of API requests:</p>
+        <pre>
+        GET /api/v1/multi-line
+        GET /api/v1//stacked-column
+        </pre>
+    </div>
+    <footer>
+        <p>© 2024 My Awesome Company</p>
+    </footer>
+</body>
+</html>

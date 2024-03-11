@@ -1,0 +1,51 @@
+{
+    "title": "Internet Users by Access Type and Year",
+    "label": {
+        "domainAxis": "Year",
+        "rangeAxis": "Number of Internet Users (in millions)"
+    },
+    "data": [
+        {
+            "Year": "2000",
+            "DSL": 120,
+            "Fiber": 10,
+            "Dialup": 80,
+            "Mobile": 150
+        },
+        {
+            "Year": "2005",
+            "DSL": 480,
+            "Fiber": 50,
+            "Dialup": 30,
+            "Mobile": 580
+        },
+        {
+            "Year": "2010",
+            "DSL": 950,
+            "Fiber": 210,
+            "Dialup": 5,
+            "Mobile": 1500
+        },
+        {
+            "Year": "2015",
+            "DSL": 780,
+            "Fiber": 900,
+            "Dialup": 2,
+            "Mobile": 2450
+        },
+        {
+            "Year": "2020",
+            "DSL": 420,
+            "Fiber": 2600,
+            "Dialup": 1,
+            "Mobile": 4200
+        },
+        {
+            "Year": "2024",
+            "DSL": 300,
+            "Fiber": 3500,
+            "Dialup": 0.5,
+            "Mobile": 5500
+        }
+    ]
+}
